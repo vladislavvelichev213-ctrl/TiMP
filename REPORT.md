@@ -287,7 +287,31 @@ wget https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.
 ```
 --2026-02-26 22:31:19--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz
 Распознаётся sourceforge.net (sourceforge.net)… 104.18.12.149, 104.18.13.149
-...
+Подключение к sourceforge.net (sourceforge.net)|104.18.12.149|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 301 Moved Permanently
+Адрес: https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/ [переход]
+--2026-02-26 22:31:19--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/
+Повторное использование соединения с sourceforge.net:443.
+HTTP-запрос отправлен. Ожидание ответа… 301 Moved Permanently
+Адрес: https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/download [переход]
+--2026-02-26 22:31:19--  https://sourceforge.net/projects/boost/files/boost/1.69.0/boost_1_69_0.tar.gz/download
+Повторное использование соединения с sourceforge.net:443.
+HTTP-запрос отправлен. Ожидание ответа… 302 Found
+Адрес: https://downloads.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?ts=gAAAAABpmyplJ4MwBZjjhwNabi1OV8jsKZqjRlOS-JJiJ8CJlt2ELGnTd1WeLsRVFpIO5RX7lvD_Yz7Ycnl0GeSPpBfiZko_5A%3D%3D&use_mirror=unlimited&r= [переход]
+--2026-02-26 22:31:19--  https://downloads.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?ts=gAAAAABpmyplJ4MwBZjjhwNabi1OV8jsKZqjRlOS-JJiJ8CJlt2ELGnTd1WeLsRVFpIO5RX7lvD_Yz7Ycnl0GeSPpBfiZko_5A%3D%3D&use_mirror=unlimited&r=
+Распознаётся downloads.sourceforge.net (downloads.sourceforge.net)… 104.18.12.149, 104.18.13.149
+Подключение к downloads.sourceforge.net (downloads.sourceforge.net)|104.18.12.149|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 302 Found
+Адрес: https://unlimited.dl.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?viasf=1 [переход]
+--2026-02-26 22:31:19--  https://unlimited.dl.sourceforge.net/project/boost/boost/1.69.0/boost_1_69_0.tar.gz?viasf=1
+Распознаётся unlimited.dl.sourceforge.net (unlimited.dl.sourceforge.net)… 185.119.90.247
+Подключение к unlimited.dl.sourceforge.net (unlimited.dl.sourceforge.net)|185.119.90.247|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: 111710205 (107M) [application/x-gzip]
+Сохранение в: ‘boost_1_69_0.tar.gz’
+
+boost_1_69_0.tar.gz 100%[=================================================>] 106.53M  5.60MB/s    за 18s
+
 2026-02-26 22:31:19 (5.60 MB/s) - ‘boost_1_69_0.tar.gz’ saved [111710205/111710205]
 ```
 
@@ -474,6 +498,13 @@ du -sh ~/boost-libs
 cd ~/vladislavvelichev213-ctrl/workspace/reports/lab01
 gist REPORT.md
 ```
+**Вывод:**
+```
+https://gist.github.com
+```
+
+**Ссылка на отчет:** https://gist.github.com/vladislavvelichev213-ctrl/ff112b0f864d12ddb49accdca6c70abd
+
 ---
 
 ## 4. Выводы
@@ -492,3 +523,5 @@ gist REPORT.md
 
 Все большие листинги вынесены в отдельные файлы в репозитории.
 ```
+
+
